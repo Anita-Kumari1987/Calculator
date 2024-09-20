@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <input type="text" id = "enter_here">
+    <div id = "button_box">
+      <button class="box" value ="7" onclick="buttonValue(this);">7</button>
+      <button class="box" value ="8" onclick="buttonValue(this);">8</button>
+      <button class="box" value ="9" onclick="buttonValue(this);">9</button>
+      <button class="box opbtn" value ="/" onclick="buttonValue(this);">/</button>
+   
+      <button class="box" value ="4" onclick="buttonValue(this);">4</button>
+      <button class="box" value ="5" onclick="buttonValue(this);">5</button>
+      <button class="box" value ="6" onclick="buttonValue(this);">6</button>
+      <button class="box opbtn" value ="*" onclick="buttonValue(this);">*</button>
+   
+      <button class="box" value ="1" onclick="buttonValue(this);">1</button>
+      <button class="box" value ="2" onclick="buttonValue(this);">2</button>
+      <button class="box" value ="3" onclick="buttonValue(this);">3</button>
+      <button class="box opbtn" value ="-" onclick="buttonValue(this)">-</button>
+   
+      <button class="box" value ="0" onclick="buttonValue(this);">0</button>
+      <button class="box" value ="." onclick="buttonValue(this);">.</button>
+      <button class="box" value ="%" onclick="buttonValue(this);">%</button>
+      <button class="box opbtn" value ="+" onclick="buttonValue(this);">+</button>
+
+      <button class="box bigBtn" onclick="clearDisplay();">C </button>
+      <button class="box bigBtn" onclick="operate();">=</button>
+      
+
+
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
